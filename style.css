@@ -4,7 +4,7 @@
 
 .body {
    font-family:'open Sans Condensed';
-   background:(#F6A844)
+   background:(#F6A844);
 }
 /*ajout d'un menu en horizontal l'un à cote de l'autre--*/
 .Menu {
@@ -24,7 +24,7 @@ list-style-position: none;
 
 .Landscapes {  display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 1000px 1000px 1000px;
     
   }
   
