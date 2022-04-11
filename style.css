@@ -2,21 +2,26 @@
 /*import de la font--------*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen:wght@300&family=Poppins:wght@100;200&display=swap');
 
-.body {
+body {
    font-family:'open Sans Condensed';
-   background:(#F6A844);
+   
 }
-/*ajout d'un menu en horizontal l'un à cote de l'autre--*/
-.Menu {
-    display: flex;
+/*ajout d'un menu en horizontal l'un à cote de l'autre//*suppression des puces -------*/
+.titreMenu{
+    list-style-type: none;
+    width: 900px;
+    height:50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
     padding: 0;
     background-color: #d1897b;
-}
-/*suppression des puces -------*/
-.Menu ul{
-list-style-position: none;
+    
 }
 
+h1{
+  font-size: 50px; 
+    text-align: left;
+}
 
 .Landscapes {  display: grid;
     grid-template-columns: 300px 300px 300px;
