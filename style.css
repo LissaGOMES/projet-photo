@@ -19,7 +19,10 @@ list-style-position: none;
 
 
 
-.Landscapes-Section {  display: grid;
+
+
+
+.Landscapes {  display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 1000px 1000px 1000px;
     
