@@ -2,23 +2,22 @@
 /*import de la font--------*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen:wght@300&family=Poppins:wght@100;200&display=swap');
 
+
+
+
 body{
    font-family:'open Sans Condensed';
-   background:(#F6A844)
+   background:(#F6A844);
+   margin-left: 200px;
+   margin-right: 200px;
+  
 }
 
 
 
-
-
-
-
-
-
-
-.Landscapes {  display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px;
+.Landscapes-Section {  display: grid;
+    grid-template-columns: 00px 300px 300px;
+    grid-template-rows: 1000px 1000px 1000px;
     
   }
   
