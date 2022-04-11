@@ -7,16 +7,15 @@
    background:(#F6A844)
 }
 /*ajout d'un menu en horizontal l'un à cote de l'autre--*/
-.menu {
+.Menu {
     display: flex;
     padding: 0;
     background-color: #d1897b;
 }
 /*suppression des puces -------*/
-.menu ul{
+.Menu ul{
 list-style-position: none;
 }
-
 
 
 
