@@ -1,4 +1,11 @@
 
+/*import de la font--------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen:wght@300&family=Poppins:wght@100;200&display=swap');
+
+body{
+   font-family:'open Sans Condensed';
+   background:(#F6A844)
+}
 
 
 
@@ -50,4 +57,5 @@
   .Montagne {
       grid-area: 1/ 1/ 2/ 3;
   }
+
 
