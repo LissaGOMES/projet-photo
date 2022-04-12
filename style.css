@@ -11,7 +11,7 @@ Tous les éléments sans marge et padding
 
 body {
    font-family:'open Sans Condensed';
-   background-color:#F6A844;
+   background: color #3d3d3d;
 }
 /*ajout d'un menu en horizontal l'un à cote de l'autre//*suppression des puces -------*/
 .titreMenu{
