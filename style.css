@@ -52,11 +52,11 @@ img {
 .Landscapes-Section {
     background-color:white;
     margin:50px 50px 50px 50px;
-    width: max-content; 
+  
     gap: 10px 10px;
     display: grid;
-    grid-template-columns: repeat(4,400px);
-    grid-template-rows: repeat(7, 400px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-template-areas:
     "b b b b"
     "b b b b"
