@@ -11,8 +11,15 @@ Tous les éléments sans marge et padding
 
 body {
    font-family:'open Sans Condensed';
-   background: color #3d3d3d;
+   background-color:  #3d3d3d;
 }
+/*ajout logo-----*/
+.logo{
+ padding: 20px; 
+ border:3px ;  
+}
+
+
 /*ajout d'un menu en horizontal l'un à cote de l'autre//*suppression des puces -------*/
 .titreMenu{
     list-style-type: none;
