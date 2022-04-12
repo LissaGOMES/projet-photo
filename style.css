@@ -10,16 +10,19 @@ Tous les éléments sans marge et padding
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen:wght@300&family=Poppins:wght@100;200&display=swap');
 
 body {
-   font-family:'Open Sans Condensed';
+   font-family:'open Sans Condensed';
    background-color:#F6A844;
 }
-
-
-/*ajout d'un menu en horizontal l'un à cote de l'autre--*/
-.Menu {
-    display: flex;
+/*ajout d'un menu en horizontal l'un à cote de l'autre//*suppression des puces -------*/
+.titreMenu{
+    list-style-type: none;
+    width: 900px;
+    height:50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
     padding: 0;
     background-color: #d1897b;
+    
 }
 
 
@@ -40,6 +43,7 @@ img {
 
 
 .Landscapes-Section {
+    background-color:white;
     margin:50px 50px 50px 50px;
     width: max-content; 
     gap: 10px 10px;
@@ -102,4 +106,41 @@ img {
     background-color: white;
 }
 
-
+/*ajout d'un grid Portraits -------*/
+.Portraits {  
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 1% 1%; 
+    grid-template-areas: 
+      "bleu mainf mainf moitie"
+      "bleu mainf mainf moitie"
+      "bleu mainc mainc moitie"
+      "bleu mainc mainc moitie"
+      "rouge ferme ferme regard"
+      "rouge ferme ferme regard"
+      "noir noir sourire sourire"
+      "noir noir sourire sourire"; 
+  }
+  
+  .mainf { grid-area: mainf; }
+  
+  .mainc { grid-area: mainc; }
+  
+  .rouge { grid-area: rouge; }
+  
+  .noir { grid-area: noir; }
+  
+  .bleu { grid-area: bleu; }
+  
+  .sourire { grid-area: sourire; }
+  
+  .regard { grid-area: regard; }
+  
+  .moitie { grid-area: moitie; }
+  
+  .ferme { grid-area: ferme; }
+  
+  img {width: 100%;
+height: 100%;}
