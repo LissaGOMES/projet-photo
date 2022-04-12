@@ -11,12 +11,14 @@ Tous les éléments sans marge et padding
 
 body {
    font-family:'open Sans Condensed';
-   background-color:  #3d3d3d;
+   background-color: black ;
 }
 /*ajout logo-----*/
 .logo{
- padding: 20px; 
- border:3px ;  
+width: 200px; 
+height: 200px ; 
+ display: block;
+ margin:0px auto;
 }
 
 
