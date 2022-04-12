@@ -26,7 +26,7 @@ h1 {text-align: center;}
 .titreMenu{
     list-style-type: none;
     width: 1400px;
-    height:50px;
+    height:60px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%; 
     padding: 0;
