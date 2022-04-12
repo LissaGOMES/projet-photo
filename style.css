@@ -52,7 +52,7 @@ img {
 
 .Landscapes-Section {
     background-color:black;
-    margin:50px 50px 50px 50px;
+    margin:50px 200px 200px 200px;
     gap: 10px 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
