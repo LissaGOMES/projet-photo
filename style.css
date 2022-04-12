@@ -20,6 +20,7 @@ height: 200px ;
  margin:0px auto;
 }
 
+h1 {text-align: center;}
 
 /*ajout d'un menu en horizontal l'un à cote de l'autre//*suppression des puces -------*/
 .titreMenu{
@@ -29,8 +30,7 @@ height: 200px ;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%; 
     padding: 0;
-    background-color: #3D858E;
-    
+    background-color: #3D858E;  
 }
 
 
@@ -39,6 +39,28 @@ height: 200px ;
 list-style-position: none;
 }
 
+/*------------------------------------------------------
+Mise en page Biographie
+--------------------------------------------------------*/
+p {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #D1897B;
+    background-color: #D1897B;
+    text-align: justify;
+}
+
+/*------------------------------------------------------
+Taille police Menu
+--------------------------------------------------------*/
+.Landscapes
+{font-weight: bolder; }
+.Portrait
+{font-weight: bolder; }
+.Biographie
+{font-weight: bolder; }
+.Contact
+{font-weight: bolder; }
 
 /*------------------------------------------------------
 Grid des landscapes
@@ -52,7 +74,7 @@ img {
 
 .Landscapes-Section {
     background-color:black;
-    margin:50px 50px 50px 50px;
+    margin: 50px 200px 200px 200px;
     gap: 10px 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -137,6 +159,7 @@ img {
     grid-template-columns: 1fr 0.15fr 0.6fr 0.6fr 0.15fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr 1fr 1fr 1fr; 
     gap: 1% 1%;
+    margin: 50px 200px 200px 200px;
     grid-template-areas:
               "bleu mainc mainc mainc mainc moitie"
               "bleu mainc mainc mainc mainc moitie"
@@ -161,7 +184,7 @@ img {
     height: 100%;}
     
     h2{
-        font-size: 50px; 
+        font-size: 25px; 
           text-align: center;
           background-color: #3D858E;
       }
