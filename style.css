@@ -45,7 +45,6 @@ img {
 .Landscapes-Section {
     background-color:white;
     margin:50px 50px 50px 50px;
-  
     gap: 10px 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -62,50 +61,67 @@ img {
 
 .Ville {
     grid-area: a;
-    background-color: blue;
-    
+    transition: transform 0.4s;
 }
-     
+.Ville:hover{
+    transform:scale(1.05);
+}
 .Campagne {
-    grid-area: b; 
-    background-color: rgb(0, 255, 51);
+    grid-area: b;
+    transition: transform 0.4s;
 }
-
+.Campagne:hover{
+    transform:scale(1.05);
+}
 .Plage {
-    grid-area: c; 
-    background-color: rgb(255, 0, 0);
+    grid-area: c;
+    transition: transform 0.4s;
 }
-
+.Plage:hover{
+    transform:scale(1.05);
+}
 .Brume {
-    grid-area: d; 
-    background-color: rgb(124, 124, 217);
+    grid-area: d;
+    transition: transform 0.4s; 
 }
-
+.Brume:hover{
+    transform:scale(1.05);
+}
 .Fleuve {
-    grid-area: e; 
-    background-color: rgb(255, 128, 0);
+    grid-area: e;
+    transition: transform 0.4s;
 }
-
+.Fleuve:hover{
+    transform:scale(1.05);
+}
 .Champs {
     grid-area: f;
-    background-color: rgb(56, 141, 145);
+    transition: transform 0.4s; 
 }
-
+.Champs:hover{
+    transform:scale(1.05);
+}
 .Arbre {
-    grid-area: g; 
-    background-color: rgb(2, 2, 12);
+    grid-area: g;
+    transition: transform 0.4s;
 }
-  
+ .Arbre:hover{
+    transform:scale(1.05);
+} 
 .Palmiers {
-    grid-area: h; 
-    background-color: rgb(237, 24, 148);
+    grid-area: h;
+    transition: transform 0.4s; 
 }
-
+.Palmiers:hover{
+    transform:scale(1.05);
+}
 .Montagne {
-    grid-area: i; 
-    background-color: white;
+    grid-area:i;
+    transition: transform 0.4s;
 }
-
+.Montagne:hover{
+    transform:scale(1.05);
+}
 /*ajout d'un grid Portraits -------*/
 .Portraits {  
 background-color: black;
