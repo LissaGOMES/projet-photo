@@ -1,11 +1,17 @@
+/* --------------------------------------------------------------
+Tous les éléments sans marge et padding
+-------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /*import de la font--------*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oxygen:wght@300&family=Poppins:wght@100;200&display=swap');
 
-.body {
-   font-family:'open Sans Condensed';
-   background:(#F6A844);
- 
+body {
+   font-family:'Open Sans Condensed';
+   background-color:#F6A844;
 }
 
 
@@ -27,47 +33,73 @@ list-style-position: none;
 Grid des landscapes
 --------------------------------------------------------*/
 
-.Landscapes-Section {  display: grid;
-    grid-template-columns: 500px 500px 500px;
-    grid-template-rows: 1000px 1000px 1000px;
+img {
+    width: 100%;
+    height: 100%;
+}
 
 
+.Landscapes-Section {
+    margin:50px 50px 50px 50px;
+    width: max-content; 
+    gap: 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(4,400px);
+    grid-template-rows: repeat(7, 400px);
+    grid-template-areas:
+    "b b b b"
+    "b b b b"
+    "f . a a"
+    "f d d ."
+    "c c e e"
+    ". g g h"
+    "i i . h";
+}
 
-
-  .Ville {
-      grid-area: 1 / 1;
+.Ville {
+    grid-area: a;
+    background-color: blue;
+    
+}
      
+.Campagne {
+    grid-area: b; 
+    background-color: rgb(0, 255, 51);
+}
 
-  .Campagne {
-      grid-area: 1/ 2;
-  }
+.Plage {
+    grid-area: c; 
+    background-color: rgb(255, 0, 0);
+}
 
-  .Plage {
-      grid-area: 1/ 3/ 1/ 1;
-  }
+.Brume {
+    grid-area: d; 
+    background-color: rgb(124, 124, 217);
+}
 
-  .Brume {
-      grid-area: 2/ 1/ 1/ 1;
-  }
+.Fleuve {
+    grid-area: e; 
+    background-color: rgb(255, 128, 0);
+}
 
-  .Fleuve {
-      grid-area: 2/ 2/ 1/ 1;
-  }
+.Champs {
+    grid-area: f;
+    background-color: rgb(56, 141, 145);
+}
 
-  .Champs {
-      grid-area: 2/ 3/ 1/ 1;
-  }
-
-  .Arbre {
-      grid-area: 3/ 1/ 1/ 1;
-  }
+.Arbre {
+    grid-area: g; 
+    background-color: rgb(2, 2, 12);
+}
   
-  .Palmiers {
-      grid-area: 3/ 2/ 1/ 1;
-  }
+.Palmiers {
+    grid-area: h; 
+    background-color: rgb(237, 24, 148);
+}
 
-  .Montagne {
-      grid-area: 3/ 3/ 1/ 1;
-  }
+.Montagne {
+    grid-area: i; 
+    background-color: white;
+}
 
 
