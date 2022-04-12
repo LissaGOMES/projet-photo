@@ -69,4 +69,41 @@ h1{
       grid-area: 1/ 1/ 2/ 3;
   }
 
-
+/*ajout d'un grid Portraits -------*/
+.Portraits {  
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 1% 1%; 
+    grid-template-areas: 
+      "bleu mainf mainf moitie"
+      "bleu mainf mainf moitie"
+      "bleu mainc mainc moitie"
+      "bleu mainc mainc moitie"
+      "rouge ferme ferme regard"
+      "rouge ferme ferme regard"
+      "noir noir sourire sourire"
+      "noir noir sourire sourire"; 
+  }
+  
+  .mainf { grid-area: mainf; }
+  
+  .mainc { grid-area: mainc; }
+  
+  .rouge { grid-area: rouge; }
+  
+  .noir { grid-area: noir; }
+  
+  .bleu { grid-area: bleu; }
+  
+  .sourire { grid-area: sourire; }
+  
+  .regard { grid-area: regard; }
+  
+  .moitie { grid-area: moitie; }
+  
+  .ferme { grid-area: ferme; }
+  
+  img {width: 100%;
+height: 100%;}
