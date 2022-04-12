@@ -32,16 +32,8 @@ Grid des landscapes
     grid-template-rows: 1000px 1000px 1000px;
 
 
-main { 
-     
-    width: 120px;
-    height: 200px;
-}
 
-}
-    
-  }
-  
+
   .Ville {
       grid-area: 1 / 1;
      
