@@ -14,12 +14,13 @@ body {
 }
 /*ajout logo-----*/
 .logo{
-width: 280px; 
-height: 200px ; 
+width: 452px; 
+height: 295px ; 
 display: block;
 margin:0px auto;
 }
 
+/*mise en forme titre h1-----*/
 h1 {text-align: center;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-style: italic;
@@ -95,10 +96,9 @@ Taille police Menu
 width: max-content;
 }
 
-
-/*------------------------------------------------------
+/*------------------------------------------------
 Grid des landscapes
-----------------------------------------------------*/
+-------------------------------*/
 
 img {
     width: 100%;
