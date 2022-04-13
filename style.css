@@ -38,11 +38,21 @@ height: 200px ;
 .Menu ul{
 list-style-position: none;
 }
+/*modification taille et couleur des icons*/
+.fa-solid {
+ color: #3D858E;
+ width: "700px";   
+}
+
+/*Hoover-----sur tout le menu*/
+.Landscapes:hover {
+background-color :#3D858E;
+}
 
 
 /*------------------------------------------------------
 Grid des landscapes
---------------------------------------------------------*/
+----------------------------------------------------*/
 
 img {
     width: 100%;
