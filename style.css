@@ -14,16 +14,17 @@ body {
 }
 /*ajout logo-----*/
 .logo{
-width: 200px; 
-height: 200px ; 
+width: 452px; 
+height: 295px ; 
 display: block;
 margin:0px auto;
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;}
+/*mise en forme titre h1-----*/
+h1 {text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+margin-top: 3%;margin-bottom: 2%;}
 
 /*ajout d'un menu en horizontal l'un à cote de l'autre Hayet------*/
 .titreMenu{
@@ -35,6 +36,7 @@ h1 {
     padding: 1% 1% 1% 1%;
     background-color: #3D858E; 
     margin: 0% 0% 0% 0%;
+   
 }
 
 
@@ -48,7 +50,7 @@ list-style-position: none;
  font-size: 30px;   
 }
 
-/*Hoover-----sur tout le menu*/
+/*Hover-----sur tout le menu*/
 .Landscapes:hover {
     background-color :#D1897B;
 }
@@ -62,16 +64,35 @@ list-style-position: none;
     background-color :#D1897B;
 }
 
+/*-------- Menu Nav : suppression du colori bleu du lien------------Hayet*/
+
+.Landscapes a {
+    text-decoration: none;
+    color: white;
+}
+.Portrait a {
+    text-decoration: none;
+    color: white;  
+}
+.Biographie a {
+    text-decoration: none;
+    color: white;
+}
+.Contact a {
+    text-decoration: none;
+    color: white;
+}
 /*------------------------------------------------------
 Mise en page Biographie
 --------------------------------------------------------*/
-.Biographie {
+.BiographieAriette {
     display: flex;
     flex-wrap: wrap;
-justify-content: center;}
+    justify-content: center;
+}
 
 .bio {width: 40%;
-        text-align: center;}
+    text-align: center;}
 
 .bloc-photos {width: 40%;    
 margin: 20px 20px 20px 20px}
@@ -87,12 +108,14 @@ Mise en page des titres de section
 --------------------------------------------------------*/
 h2{
     font-size: 25px; 
-      text-align: center;
-      background-color: #3D858E;
+      text-align: center;}
 
-
-  }
-
+section {
+      background-color: #F6A844; 
+      width: 50%;
+      margin-left: 25%;
+      color: white;
+    }
 /*------------------------------------------------------
 Taille police Menu
 --------------------------------------------------------*/
@@ -101,10 +124,9 @@ font-weight: bolder;
 width: max-content;
 }
 
-
-/*------------------------------------------------------
+/*------------------------------------------------
 Grid des landscapes
-----------------------------------------------------*/
+-------------------------------*/
 
 img {
     width: 100%;
@@ -223,31 +245,39 @@ img {
     img {width: 100%;
     height: 100%;}
     
-    h2{
-        font-size: 25px; 
-          text-align: center;
-          background-color: #3D858E;
-      }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: blue;
+}
 
 form{
-    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+.Contact{
+    display: block;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+
+.partie-un{
+    display: flex;
     flex-direction: column;
 }
-/*-------- Menu Nav : suppression du colori bleu du lien------------Hayet*/
 
-.Landscapes a {
-    text-decoration: none;
-    color: #D1897B;
+.partie-deux {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
-.Portrait a {
-    text-decoration: none;
-    color: #D1897B;  
-}
-.Biographie a {
-    text-decoration: none;
-    color: #D1897B;
-}
-.Contact a {
-    text-decoration: none;
-    color: #D1897B
+
+button{
+    justify-items: center;
+    padding: 1%;
+    margin: 10%;
+    width: 1%;
 }
