@@ -225,8 +225,8 @@ footer {
     background-color: blue;
 }
 
-form{
-    flex-wrap:nowrap;
+form {
+    flex-direction:row;
     justify-content: space-evenly;
 }
 
