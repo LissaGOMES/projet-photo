@@ -220,13 +220,15 @@ img {
 
 footer {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-evenly;
     background-color: blue;
 }
 
-form{
-    flex-wrap:nowrap;
+form {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .Contact{
@@ -245,6 +247,7 @@ form{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    margin-left: 10%;
 }
 
 button{
