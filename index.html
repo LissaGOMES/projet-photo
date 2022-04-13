@@ -97,54 +97,50 @@
             </div>
         </div>         
     </main>
-    <footer>
-        <div id="Contact"> Contact</div>
-
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram-square"></i>
-        <i class="fa-brands fa-twitter"></i>
     
-    <form>
-        <div>
-        <label for="lastname">Nom :</label>
-        <input type="text" id="name" name="user_name">
-        </div>
+    <footer>
+        <div id="Contact"> Contact
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>   
 
-        <div>
-        <label for="firstname">Prénom&nbsp;:</label> 
-        <input type="text" id="name" name="user_name">
-        </div>
+        <form>
+            <div class="partie-un">
+                <label for="lastname">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                <label for="firstname">Prénom&nbsp;:</label> 
+                    <input type="text" id="name" name="user_name">
+                <label for="mail">e-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail">
+                <label for="numberphone">numero de téléphone&nbsp;:</label>
+                    <input type="number" id="numberphone" name="number_phone">
+                <label for="msg">Message :</label>
+                    <textarea id="msg" name="user_message"></textarea>
+            </div>
 
-        <div>
-        <label for="mail">e-mail&nbsp;:</label>
-        <input type="email" id="mail" name="user_mail">
-        </div>
-
-        <div>
-        <label for="numberphone">numero de téléphone&nbsp;:</label>
-        <input type="number" id="numberphone" name="number_phone">
-        </div>
-
-        <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-        </div>
-
-            <legend>Services désirés</legend>
-            <p>
-              <input type="radio" name="size" id="size_1" value="small">
-              <label for="size_1">Portraits</label>
-            </p>
-            <p>
-              <input type="radio" name="size" id="size_2" value="medium">
-              <label for="size_2">Book photos</label>
-            </p>
-            <p>
-              <input type="radio" name="size" id="size_3" value="large">
-              <label for="size_3">Autres</label>
-            </p>        
+            <div class="partie-deux">
+                <h3>Services désirés</h3>
+                <label for="portraits">
+                    <input id="portraits" type="radio" name="size"  value="portraits">Portraits
+                </label>
+                        
+                <br>
+                <label for="book-photos">
+                    <input id="book-photos" type="radio" name="size"  value="book-photos">Book photos
+                </label>
+                        
+                <br>
+                <label for="autres">
+                    <input id="autres" type="radio" name="size"  value="autres">Autres
+                </label>
+                        
+            </div>
+            
+            <button>Envoyez</button>        
     </form>
-    <p><button>Envoyez</button></p>
+    
+    
 
     </footer>
     <script src="https://kit.fontawesome.com/f2b0fa99cf.js" crossorigin="anonymous"></script>

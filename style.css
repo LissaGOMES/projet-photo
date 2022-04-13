@@ -189,7 +189,38 @@ img {
           background-color: #3D858E;
       }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
 form{
-    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+.Contact{
+    display: block;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+
+.partie-un{
+    display: flex;
     flex-direction: column;
+}
+
+.partie-deux{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+button{
+    justify-items: center;
+    padding: 1%;
+    margin: 10%;
+    width: 1%;
 }
