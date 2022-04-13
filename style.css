@@ -165,3 +165,8 @@ img {
           text-align: center;
           background-color: #3D858E;
       }
+
+form{
+    justify-content: center;
+    flex-direction: column;
+}
