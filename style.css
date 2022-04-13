@@ -14,23 +14,28 @@ body {
 }
 /*ajout logo-----*/
 .logo{
-width: 200px; 
-height: 200px ; 
- display: block;
- margin:0px auto;
+width: 452px; 
+height: 295px ; 
+display: block;
+margin:0px auto;
 }
 
-h1 {text-align: center;}
+/*mise en forme titre h1-----*/
+h1 {text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+margin-top: 3%;margin-bottom: 2%;}
 
 /*ajout d'un menu en horizontal l'un à cote de l'autre//*suppression des puces -------*/
 .titreMenu{
     list-style-type: none;
-    width: 1400px;
-    height:60px;
+    width: 100%;
+    height:100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%; 
-    padding: 0;
-    background-color: #3D858E;  
+    padding: 1% 1% 1% 1%;
+    background-color: #3D858E; 
+    margin: 0% 0% 0% 0%;
 }
 
 
@@ -38,33 +43,62 @@ h1 {text-align: center;}
 .Menu ul{
 list-style-position: none;
 }
+/*modification taille et couleur des icons*/
+.fa-solid {
+ color: #D1897B;
+ font-size: 30px;   
+}
+
+/*Hoover-----sur tout le menu*/
+.Landscapes:hover {
+background-color :#F6A844;
+}
 
 /*------------------------------------------------------
 Mise en page Biographie
 --------------------------------------------------------*/
-p {
-    margin: 10px 0;
-    padding: 5px;
-    border: 1px solid #D1897B;
-    background-color: #D1897B;
-    text-align: justify;
+.Biographie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.bio {width: 40%;
+    text-align: center;}
+
+.bloc-photos {width: 40%;    
+margin: 20px 20px 20px 20px}
+
+p {
+    background-color: white;
+    color: gray;
+    text-align: justify;
+    margin: 30px 20px 20px 20px}
+
+/*------------------------------------------------------
+Mise en page des titres de section
+--------------------------------------------------------*/
+h2{
+    font-size: 25px; 
+      text-align: center;}
+
+section {
+      background-color: #F6A844; 
+      width: 50%;
+      margin-left: 25%;
+      color: white;
+    }
 /*------------------------------------------------------
 Taille police Menu
 --------------------------------------------------------*/
-.Landscapes
-{font-weight: bolder; }
-.Portrait
-{font-weight: bolder; }
-.Biographie
-{font-weight: bolder; }
-.Contact
-{font-weight: bolder; }
+.titreMenu li
+{font-weight: bolder;
+width: max-content;
+}
 
-/*------------------------------------------------------
+/*------------------------------------------------
 Grid des landscapes
---------------------------------------------------------*/
+-------------------------------*/
 
 img {
     width: 100%;
@@ -74,7 +108,7 @@ img {
 
 .Landscapes-Section {
     background-color:black;
-    margin: 50px 200px 200px 200px;
+    margin: 10px 200px 10px 200px;
     gap: 10px 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -159,7 +193,7 @@ img {
     grid-template-columns: 1fr 0.15fr 0.6fr 0.6fr 0.15fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr 1fr 1fr 1fr; 
     gap: 1% 1%;
-    margin: 50px 200px 200px 200px;
+    margin: 10px 200px 10px 200px;
     grid-template-areas:
               "bleu mainc mainc mainc mainc moitie"
               "bleu mainc mainc mainc mainc moitie"
@@ -183,11 +217,6 @@ img {
     img {width: 100%;
     height: 100%;}
     
-    h2{
-        font-size: 25px; 
-          text-align: center;
-          background-color: #3D858E;
-      }
 
 footer {
     display: flex;
