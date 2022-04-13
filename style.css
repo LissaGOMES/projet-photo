@@ -247,40 +247,28 @@ img {
     
 
 footer {
+    background-color :#3D858E;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    display:inline-block;
+    text-align:center; 
+    color: white;}
+
+.fa-brands {
+        font-size: 30px;}
+    
+.partie-un {
+    text-align:center;
+    padding-top:24px;
+    margin-bottom:0;
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    background-color: blue;
-}
-
-form {
-    flex-direction:row;
-    justify-content: space-evenly;
-}
-
-.Contact{
-    display: block;
-    justify-content: flex-start;
-    flex-direction: row;
-
-}
-
-.partie-un{
-    display: flex;
-    flex-direction: column;
-}
-
+    flex-direction: column    ;
+    align-items: center;
+  }
 .partie-deux {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-left: 10%;
-}
-
-button{
-    justify-items: center;
-    align-items: flex-end;
-    padding: 1%;
-    margin: 10%;
-    width: 1%;
-}
+    text-align:center;
+    padding-top:24px;
+    margin-bottom:0;
+  }
+  
