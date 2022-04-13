@@ -44,13 +44,13 @@ list-style-position: none;
 }
 /*modification taille et couleur des icons*/
 .fa-solid {
- color: #3D858E;
- width: "700px";   
+ color: #D1897B;
+ font-size: 30px;   
 }
 
 /*Hoover-----sur tout le menu*/
 .Landscapes:hover {
-background-color :#3D858E;
+background-color :#F6A844;
 }
 
 /*------------------------------------------------------
@@ -90,14 +90,11 @@ section {
 /*------------------------------------------------------
 Taille police Menu
 --------------------------------------------------------*/
-.Landscapes
-{font-weight: bolder; }
-.Portrait
-{font-weight: bolder; }
-.Biographie
-{font-weight: bolder; }
-.Contact
-{font-weight: bolder; }
+.titreMenu li
+{font-weight: bolder;
+width: max-content;
+}
+
 
 /*------------------------------------------------------
 Grid des landscapes
@@ -224,4 +221,9 @@ img {
 form{
     justify-content: center;
     flex-direction: column;
+}
+
+
+.Landscapes a{
+    
 }
