@@ -227,6 +227,7 @@ footer {
 
 form{
     flex-wrap:nowrap;
+    justify-content: space-evenly;
 }
 
 .Contact{
@@ -249,6 +250,7 @@ form{
 
 button{
     justify-items: center;
+    align-items: flex-end;
     padding: 1%;
     margin: 10%;
     width: 1%;
