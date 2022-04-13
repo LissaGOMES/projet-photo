@@ -41,6 +41,16 @@ font-style: italic;}
 .Menu ul{
 list-style-position: none;
 }
+/*modification taille et couleur des icons*/
+.fa-solid {
+ color: #3D858E;
+ width: "700px";   
+}
+
+/*Hoover-----sur tout le menu*/
+.Landscapes:hover {
+background-color :#3D858E;
+}
 
 /*------------------------------------------------------
 Mise en page Biographie
@@ -87,7 +97,7 @@ Taille police Menu
 
 /*------------------------------------------------------
 Grid des landscapes
---------------------------------------------------------*/
+----------------------------------------------------*/
 
 img {
     width: 100%;
