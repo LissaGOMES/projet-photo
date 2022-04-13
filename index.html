@@ -22,24 +22,27 @@
                     <a href="#Landscapes">Landscapes</a>
                 </li>
                 <li class="Portrait">
-                    <a href="#Portrait">Portrait</a>
                     <i class="fa-solid fa-image-portrait">
                     </i>
+                    <a href="#Portrait">Portrait</a>
+                    
                 </li>
                 <li class="Biographie">
+                    <i class="fa-solid fa-book-open"></i>
                     <a href="#Biographie">Biographie</a>
-                    <i class="fa-solid fa-file"></i>
+                
                 </li>
                 <li class="Contact">
-                    <a href="#Contact">Contact</a>
                     <i class="fa-solid fa-address-card"></i>
+                    <a href="#Contact">Contact</a>
+                    
                 </li>
             </ul>
         </nav>
     </header>  
     <main>
         <h1> A propos d'Ariette DESCHAMPS</h1>
-        <div class="Biographie">
+        <div class="BiographieAriette">
 
             <div class="bio"> <p>Bonjour ! </p> <p>Moi, c'est Ariette DESCHAMPS et je suis photographe professionnelle depuis maintenant plus de 9 ans. <br> Spécialisée en portraits artistiques et très colorés, j'aime particulièrement les photos paysages dans lesquels je sublime les levés et couchés de soleil.</p>
     
@@ -114,55 +117,50 @@
             </div>
         </div>         
     </main>
-    <footer>
-        <div id="Contact"> Contact</div>
-
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram-square"></i>
-        <i class="fa-brands fa-twitter"></i>
     
-    <form>
-        <div>
-        <label for="lastname">Nom :</label>
-        <input type="text" id="name" name="user_name">
-        </div>
+    <footer>
+        <div id="Contact"> Contact
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>   
 
-        <div>
-        <label for="firstname">Prénom&nbsp;:</label> 
-        <input type="text" id="name" name="user_name">
-        </div>
+        <form>
+            <div class="partie-un">
+                <label for="lastname">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                <label for="firstname">Prénom&nbsp;:</label> 
+                    <input type="text" id="name" name="user_name">
+                <label for="mail">e-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail">
+                <label for="numberphone">numero de téléphone&nbsp;:</label>
+                    <input type="number" id="numberphone" name="number_phone">
+                <label for="msg">Message :</label>
+                    <textarea id="msg" name="user_message"></textarea>
+            </div>
 
-        <div>
-        <label for="mail">e-mail&nbsp;:</label>
-        <input type="email" id="mail" name="user_mail">
-        </div>
-
-        <div>
-        <label for="numberphone">numero de téléphone&nbsp;:</label>
-        <input type="number" id="numberphone" name="number_phone">
-        </div>
-
-        <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-        </div>
-
-            <legend>Services désirés</legend>
-            <p>
-              <input type="radio" name="size" id="size_1" value="small">
-              <label for="size_1">Portraits</label>
-            </p>
-            <p>
-              <input type="radio" name="size" id="size_2" value="medium">
-              <label for="size_2">Book photos</label>
-            </p>
-            <p>
-              <input type="radio" name="size" id="size_3" value="large">
-              <label for="size_3">Autres</label>
-            </p>        
-    </form>
-    <p><button>Envoyez</button></p>
-
+            <div class="partie-deux">
+                <h3>Services désirés</h3>
+                <label for="portraits">
+                    <input id="portraits" type="radio" name="size"  value="portraits">Portraits
+                </label>
+                        
+                <br>
+                <label for="book-photos">
+                    <input id="book-photos" type="radio" name="size"  value="book-photos">Book photos
+                </label>
+                        
+                <br>
+                <label for="autres">
+                    <input id="autres" type="radio" name="size"  value="autres">Autres
+                </label>
+                        
+            </div>
+        </form>    
+        <button>Envoyez</button>        
+    
+    
+    
     </footer>
     <script src="https://kit.fontawesome.com/f2b0fa99cf.js" crossorigin="anonymous"></script>
 </body>
