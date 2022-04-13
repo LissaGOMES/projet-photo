@@ -265,9 +265,9 @@ footer {
     display: flex;
     flex-direction: column    ;
     align-items: center;
-  }
-.partie-deux {
-    text-align:center;
-    padding-top:24px;
-    margin-bottom:0;
-  }
+}
+
+/*agrandissement des icons dans le footer ---Hayet---*/
+.fa-brands {
+    font-size: 30px;
+}
